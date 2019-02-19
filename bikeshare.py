@@ -39,7 +39,7 @@ def get_response(response, expected, q_to_user, wheninvalid, whensuccess):
                     print(whensuccess)
             break
         except KeyboardInterrupt:
-            print('Oops! Terminating the program...')
+            print('Error occurred! Terminating the program...')
             sys.exit("Error: KeyboardInterrupt. Please restart.")
         except Exception:
             print('\nError. Try again!\nIf you want to quit, press Ctrl + C then Enter.\n')
