@@ -22,8 +22,8 @@ def get_response(response, expected, q_to_user, wheninvalid, whensuccess):
     """
     Gets expected response from the user.
 
-    Input - response: predefined response.
-                        This must not match with one of the expected response.
+    Input - response: pre-defined responses.
+                      This must not match with one of the expected response.
           - expected: in List (i.e. ['1', '2', '3'])
           - q_to_user: question to user in str (i.e. 'What is your favorite number?')
           - wheninvalid_input: error message for invalid input in str
