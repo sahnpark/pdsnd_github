@@ -237,7 +237,7 @@ def main():
         restart_s = " "
         restart = get_response(restart_r, restart_e, restart_q, restart_i, restart_s)
         if (restart == 'no'or restart == 'n'):
-            print('Closing... Bye-bye!')
+            print('Closing... Good bye!')
             break
 
 if __name__ == "__main__":
